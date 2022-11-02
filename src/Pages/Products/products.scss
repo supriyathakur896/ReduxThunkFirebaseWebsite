@@ -19,19 +19,20 @@
             width:80px;
             align-self: center;
         }
-        button{
+     button{
             border: none;
             outline: none;
             background: #764abc;
             padding: 5px 10px;
             width:100px;
-            height:50px;
+            height:30px;
             color:white;
             border-radius:4px;
             font-weight:lighter;
             cursor: pointer;
             transition: all 0.3s ease-in-out;
             text-align: center;
+            margin:auto;
         }
         .btn:hover{
             background-color: #513282;

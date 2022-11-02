@@ -2,6 +2,7 @@ import React,{useEffect} from 'react';
 import { useDispatch,useSelector } from 'react-redux';
 import { add } from '../../Redux/cartSlice';
 import { fetchProducts } from '../../Redux/productSlice';
+import "./products.scss";
 
 const Products = () => {
     const dispatch= useDispatch();
